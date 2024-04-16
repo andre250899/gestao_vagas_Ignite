@@ -18,7 +18,7 @@ public class JobEntity {
     private String benefits;
     private String level;
 
-    @ManyToOne()
+    @ManyToOne
     @JoinColumn(name = "company_id", insertable = false, updatable = false)
     private CompanyEntity companyEntity;
 
