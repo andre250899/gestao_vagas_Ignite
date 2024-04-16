@@ -8,6 +8,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import lombok.Data;
+import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.validator.constraints.Length;
 
 import java.time.LocalDateTime;
@@ -34,5 +35,6 @@ public class CompanyEntity {
     private String name;
     private String descripton;
 
+    @CreationTimestamp
     private LocalDateTime createAt;
 }
