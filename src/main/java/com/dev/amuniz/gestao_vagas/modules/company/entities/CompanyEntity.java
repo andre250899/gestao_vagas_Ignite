@@ -33,8 +33,8 @@ public class CompanyEntity {
     private String password;
     private String website;
     private String name;
-    private String descripton;
+    private String description;
 
     @CreationTimestamp
-    private LocalDateTime createAt;
+    private LocalDateTime createdAt;
 }

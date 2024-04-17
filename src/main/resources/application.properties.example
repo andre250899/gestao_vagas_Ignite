@@ -1,0 +1,7 @@
+spring.application.name=gestao_vagas
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
+
+security.token.secret=
